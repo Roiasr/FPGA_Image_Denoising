@@ -4,7 +4,7 @@ Hardware implementation of an image cleaning block using Median Filtering algori
 ## 📂 Repository Structure
 The project files are organized as follows:
 
-* **`codes/`**: Contains all source VHDL files (`Top_Level`, `pipe`, `FSM`, `Image_Line_Processor`, `rom`, `ram`) and RGB Files (.mif) of the noisy input image.
+* **`codes/`**: Contains all source VHDL files (`Top_Level`, `pipe`, `FSM`, `Image_Line_Processor`, `rom`, `ram`, `System_Package`) and RGB Files (.mif) of the noisy input image.
 * **`simulation and synthesize/`**: Includes simulation waveforms (ModelSim) and synthesis images.
 * **`Photos/`**: 
     * `Noisy_Input.jpg`: The original image corrupted with noise.
